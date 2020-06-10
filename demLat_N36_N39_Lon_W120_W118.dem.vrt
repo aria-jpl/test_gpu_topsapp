@@ -1,0 +1,11 @@
+<VRTDataset rasterXSize="7200" rasterYSize="10800">
+    <SRS>EPSG:4326</SRS>
+    <GeoTransform>-120.0, 0.0002777777777777778, 0.0, 39.0, 0.0, -0.0002777777777777778</GeoTransform>
+    <VRTRasterBand band="1" dataType="Int16" subClass="VRTRawRasterBand">
+        <SourceFilename relativeToVRT="1">demLat_N36_N39_Lon_W120_W118.dem</SourceFilename>
+        <ByteOrder>LSB</ByteOrder>
+        <ImageOffset>0</ImageOffset>
+        <PixelOffset>2</PixelOffset>
+        <LineOffset>14400</LineOffset>
+    </VRTRasterBand>
+</VRTDataset>
