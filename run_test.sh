@@ -11,5 +11,5 @@ PATH=/opt/isce2/isce/applications:$PATH
 # clean out previous run
 rm -rf ESD PICKLE coarse_* fine_* geom_* isce.log master merged slave topsProc.xml topsinsar.log
 
-# run
-topsApp.py --steps --end=geocode
+# exercise GPUtopozero and GPUgeo2rdr by running through to fineoffsets
+topsApp.py --steps --end=fineoffsets
