@@ -5,17 +5,17 @@
   <!--<property name="projection code">EPSG:3031</property>-->
   <!--</component>-->
   <component name="topsinsar">
-    <component name="master">
+    <component name="reference">
       <property name="orbit file">S1B_OPER_AUX_RESORB_OPOD_20191124T153150_V20191124T114113_20191124T145843.EOF</property>
       <property name="auxiliary data directory">aux_cal</property>
-      <property name="output directory">master</property>
+      <property name="output directory">reference</property>
       <property name="safe">['S1B_IW_SLC__1SDV_20191124T135904_20191124T135932_019070_023FD5_1504.zip']</property>
       <property name="polarization">vv</property>
     </component>
-    <component name="slave">
+    <component name="secondary">
       <property name="orbit file">S1B_OPER_AUX_RESORB_OPOD_20191112T153915_V20191112T114113_20191112T145843.EOF</property>
       <property name="auxiliary data directory">aux_cal</property>
-      <property name="output directory">slave</property>
+      <property name="output directory">secondary</property>
       <property name="safe">['S1B_IW_SLC__1SDV_20191112T135904_20191112T135932_018895_023A35_DE2D.zip']</property>
       <property name="polarization">vv</property>
     </component>
